@@ -8,9 +8,9 @@ namespace proyecto_caldas.Models
     public class UsuarioModel
     {
         public int UserId { get; set; }
-        public string Usuario_Nombre { get; set; }
-        public string Usuario_Apellido { get; set; }
-        public string Usuario_Correo { get; set; }
-        public string Usuario_Contrasena { get; set; } 
+        public required string Usuario_Nombre { get; set; }
+        public required string Usuario_Apellido { get; set; }
+        public required string Usuario_Correo { get; set; }
+        public required string Usuario_Contrasena { get; set; } 
     }
 }

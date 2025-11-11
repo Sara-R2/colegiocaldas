@@ -132,3 +132,4 @@ C:\Users\usuario\Documents\proyecto_caldas\bin\Debug\net8.0\zh-Hant\Microsoft.Co
 C:\Users\usuario\Documents\proyecto_caldas\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\usuario\Documents\proyecto_caldas\obj\Debug\net8.0\proyecto_caldas.csproj.AssemblyReference.cache
 C:\Users\usuario\Documents\proyecto_caldas\obj\Debug\net8.0\proyecto.1D9AD491.Up2Date
+C:\Users\usuario\Documents\proyecto_caldas\obj\Debug\net8.0\proyecto_caldas.sourcelink.json

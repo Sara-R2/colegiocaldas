@@ -24,17 +24,24 @@ namespace proyecto_caldas.Controllers
 
         [HttpPost]
         [Route("register")]
-        public IActionResult Register(UsuarioModel usuario)
+        public async Task<IActionResult> Register(UsuarioModel usuario)
         {
             if (usuario != null)
             {
-                usuarioService.CrerUsuario(usuario);
+                await usuarioService.CrerUsuario(usuario);
                 return Ok("usuario creado");
             }
             else
             {
                 return BadRequest("Usuaio no puede ser null");
             }
+
+        }
+        [HttpGet]
+        [Route("register")]
+        public IActionResult Register()
+        {
+            return View();
         }
     }
 }
