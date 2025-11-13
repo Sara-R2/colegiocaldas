@@ -12,14 +12,12 @@ namespace proyecto_caldas.Implementacion
     {
         private readonly DBContext dBContext;
 
-        public IPasswordServicio IPasswordservicio { get; }
-
         private readonly IPasswordServicio PasswordServicio;
 
-        public UsuarioService(DBContext dBContext,IPasswordServicio PasswordServicio)
+        public UsuarioService(DBContext dBContext, IPasswordServicio PasswordServicio)
         {
             this.dBContext = dBContext;
-            this.IPasswordservicio = PasswordServicio;
+            this.PasswordServicio = PasswordServicio;
         }
         public async Task CrerUsuario(UsuarioModel usuario)
         {

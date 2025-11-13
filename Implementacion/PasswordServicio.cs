@@ -24,6 +24,8 @@ namespace proyecto_caldas.Implementacion
                 prf: KeyDerivationPrf.HMACSHA256,
                 iterationCount: 100000,
                 numBytesRequested: 256 / 8));
+
+            
             return hashedPassWord; 
         }
     }
